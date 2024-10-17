@@ -1,0 +1,25 @@
+.header-main {
+    width: 100%;
+    height: 60px;
+    background-color: black;
+    display: flex;
+}
+
+.header-main div {
+    height: 30px;
+}
+
+.header-main .div-1 {
+    width: 100px;
+    background-color: aqua;
+}
+
+.header-main .div-2 {
+    width: 100px;
+    background-color: red;
+}
+
+.header-main .div-3 {
+    width: 100px;
+    background-color: blueviolet;
+}
