@@ -1,8 +1,11 @@
 .header-main {
     width: 100%;
-    height: 60px;
+    height: 500px;
     background-color: black;
     display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
 
 .header-main div {
@@ -10,16 +13,16 @@
 }
 
 .header-main .div-1 {
-    width: 100px;
+    width: 400px;
     background-color: aqua;
 }
 
 .header-main .div-2 {
-    width: 100px;
+    width: 400px;
     background-color: red;
 }
 
 .header-main .div-3 {
-    width: 100px;
+    width: 400px;
     background-color: blueviolet;
 }
