@@ -1,0 +1,32 @@
+main {
+    width: 100%;
+    height: 100vh;
+    background-color: wheat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-intro {
+    position: absolute;
+    left: 20px;
+    display: flex;
+    flex-direction: column;
+    z-index: 20;
+}
+
+.hero-image {
+    position: relative; 
+    height: 600px;     
+    width: 600px; 
+    z-index: 10;        
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-image img {
+    max-width: 100%;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+}
