@@ -33,10 +33,12 @@ p {
 .header-main {
   width: 100%;
   height: 80px;
-  background-color: white;
+  background-color: wheat;
+  border: 1px solid burlywood;
   display: flex;
   justify-content: space-between;
   position: relative;
+  z-index: 1000;
 }
 
 .header-main-logo {
@@ -47,23 +49,24 @@ p {
 }
 
 .header-main-logo img {
-  position: absolute;
-  height: 100px;
+  position: relative;
+  height: 120px;
   margin-left: 70px;
-  mix-blend-mode: multiply;
   align-self: center;
 }
 
 .header-main-nav {
   position: absolute;
-  left: 200px;
   height: 100%;
   width: fit-content;
+  left: 250px;
   z-index: 1000;
 }
 
 .header-main-nav ul {
   list-style: none;
+  font-size: 20px;
+  font-weight: 600;
   justify-content: center;
   display: flex;
 }
@@ -80,7 +83,7 @@ p {
 }
 
 .header-main-nav ul li a:hover {
-  color: blue;
+  color: tomato;
 }
 
 .header-main-sm {
