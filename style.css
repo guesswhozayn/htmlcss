@@ -36,7 +36,7 @@ p {
   background-color: white;
   display: flex;
   justify-content: space-between;
-  position: absolute;
+  position: relative;
 }
 
 .header-main-logo {
