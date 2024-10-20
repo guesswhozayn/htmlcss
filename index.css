@@ -67,17 +67,18 @@ main .main-quotes {
 
 .index-category p {
     color: white;
+    border: 2px solid black;
     text-align: center;
     margin-top: 80px;
     margin-bottom: 60px;
     margin-left: 100%;
     margin-right: 100%;
     padding: 60px;
-    border: 6px solid black;
     flex-basis: 100%;
     text-transform: uppercase;
     font-size: 60px;
     font-weight: 700;
+    transition: all ease-in-out 0.5s;
 }
 
 .index-category p:hover {
@@ -86,7 +87,7 @@ main .main-quotes {
 
 .index-category-box {
   height: 600px;
-  width: 400px;
+  width: 300px;
   margin: 30px 30px;
   border: 2px solid black;
   border-radius: 30px;
@@ -95,10 +96,12 @@ main .main-quotes {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  transition: all ease-in-out 0.5s;
 }
 
 .index-category-box:hover {
     background-color: salmon;
+    width: 25%;
 }
 
 .index-category-box h3 {
