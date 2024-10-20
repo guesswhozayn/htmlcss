@@ -68,12 +68,20 @@ main .main-quotes {
 .index-category p {
     color: white;
     text-align: center;
-    margin-top: 60px;
+    margin-top: 80px;
+    margin-bottom: 60px;
+    margin-left: 100%;
+    margin-right: 100%;
     padding: 60px;
+    border: 6px solid black;
     flex-basis: 100%;
     text-transform: uppercase;
     font-size: 60px;
     font-weight: 700;
+}
+
+.index-category p:hover {
+    background-color: tomato;
 }
 
 .index-category-box {
@@ -81,10 +89,12 @@ main .main-quotes {
   width: 400px;
   margin: 30px 30px;
   border: 2px solid black;
-  border-radius: 20px;
+  border-radius: 30px;
   background-color: tomato;
+  display: flex;
+  flex-direction: column;
   justify-content: center;
-  align-content: center;
+  align-items: center;
 }
 
 .index-category-box:hover {
@@ -93,4 +103,10 @@ main .main-quotes {
 
 .index-category-box h3 {
   text-align: center;
+}
+
+.index-category-box img {
+    height: 100px;
+    width: 100px;
+    margin: 30px;
 }
