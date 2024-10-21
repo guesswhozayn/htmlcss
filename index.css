@@ -123,11 +123,20 @@ main .main-quotes {
 
 .index-about {
   width: 100%;
-  height: 100vh;
+  padding: 60px 0;
   background-color: #624E88;
+}
+
+.index-about-flex {
   display: flex;
   justify-content: center;
   align-items: center;
+  column-gap: 10px;
+}
+
+.wrapper-main {
+  width: 1500px;
+  margin: 0 auto;
 }
 
 .index-about img {
@@ -154,7 +163,7 @@ main .main-quotes {
 .index-about-text a {
   display: block;
   margin-top: 30px;
-  width: 25%;
+  width: 35%;
   padding: 10px;
   font-size: 20px;
   border: 2px solid black;
