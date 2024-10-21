@@ -113,11 +113,11 @@ p {
   align-items: center;
 }
 
-.header-main-sm-fb {
+.header-main-sm-gh {
   height: 30px;
   width: 30px;
   cursor: pointer;
-  background-image: url(/img/facebook-logo.png);
+  background-image: url(/img/github-logo.png);
   background-repeat: no-repeat;
   background-size: cover;
 }
