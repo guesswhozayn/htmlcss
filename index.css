@@ -151,6 +151,20 @@ main .main-quotes {
   padding-bottom: 20px;
 }
 
+.index-about-text a {
+  display: block;
+  margin-top: 30px;
+  width: 25%;
+  padding: 10px;
+  font-size: 20px;
+  border: 2px solid black;
+  background-color: #D91656;
+}
+
+.index-about-text a:hover {
+  background-color: #FF204E;
+}
+
 .index-about-skill {
   flex-basis: 300px;
   padding: 20px;
@@ -163,10 +177,28 @@ main .main-quotes {
 .index-about-skill-bar {
   width: 100%;
   height: 10px;
-  border: 1px solid white;
+  border: 1px solid black;
+  cursor: pointer;
 }
 
 .index-about-skill-bar-fill {
   width: 100%;
   height: 100%;
+  background-color: salmon;
+}
+
+.htmlcss {
+  width: 70%;
+}
+
+.js {
+  width: 40%;
+}
+
+.react {
+  width: 20%;
+}
+
+.tw {
+  width: 10%;
 }
