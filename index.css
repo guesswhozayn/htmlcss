@@ -15,6 +15,7 @@ main .main-intro h1 {
 }
 
 main p {
+  font-weight: 600;
   font-size: 18px;
   line-height: 30px;
 }
@@ -25,7 +26,7 @@ main a {
   display: block;
   border: 2px solid black;
   background-color: #D91656;
-  padding: 10px 20px;
+  padding: 10px 30px;
   width: fit-content;
 }
 
@@ -36,7 +37,6 @@ main a:hover {
 main .main-intro-container {
   width: 30vw;
   height: 600px;
-  border: 1px solid black;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -51,7 +51,6 @@ main .main-intro {
 
 main .main-image-container {
   width: 30vw;
-  border: 1px solid black;
   height: 600px;
   display: flex;
   justify-content: center;
@@ -72,13 +71,12 @@ main .main-image-box img {
 
 main .main-image-box:hover {
   width: 600px;
-  border: 6px solid #D91656;
 }
 
 /* Category Section */
 
 .index-category {
-  border: 1px solid black;
+  border: 1px solid white;
   width: 100%;
   height: 100vh;
   background-color: #F4DEB3;
@@ -104,7 +102,7 @@ main .main-image-box:hover {
 
 .index-category-box:hover {
     background-color: #FF204E;
-    width: 25%;
+    width: 400px;
 }
 
 .index-category-box h3 {
@@ -227,6 +225,7 @@ main .main-image-box:hover {
 
 .footer-main-testemoni-container {
   width: 80%;
+  margin-top: 60px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -250,9 +249,10 @@ main .main-image-box:hover {
 }
 
 .footer-testemoni p {
+  font-style: italic;
   margin-top: 20px;
   text-align: center;
-  font-size: 16px;
+  font-size: 18px;
 }
 
 .footer-getintouch {
@@ -303,7 +303,6 @@ main .main-image-box:hover {
 .footer-sitemap ul:nth-child(3) {
   flex-basis: 30%;
   border-left: 2px solid #D91656;
-  text-transform: uppercase;
   align-content: center;
 }
 
