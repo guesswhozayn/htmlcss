@@ -68,31 +68,11 @@ main .main-quotes {
   flex-wrap: wrap;
 }
 
-.index-category p {
-    color: black;
-    border: 2px solid black;
-    border-radius: 20px;
-    text-align: center;
-    margin-top: 120px;
-    margin-bottom: 60px;
-    margin-left: 100%;
-    margin-right: 100%;
-    padding: 40px;
-    text-transform: uppercase;
-    font-size: 60px;
-    font-weight: 700;
-    transition: all ease-in-out 0.5s;
-}
-
-.index-category p:hover {
-    color: white;
-    background-color: tomato;
-}
-
 .index-category-box {
   height: 600px;
   width: 300px;
   margin: 30px 30px;
+  margin-top: 200px;
   margin-bottom: 200px;
   border: 2px solid black;
   border-radius: 30px;
@@ -224,12 +204,12 @@ main .main-quotes {
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
-  column-gap: 30px;
+  column-gap: 100px;
 }
 
 .footer-testemoni {
   display: flex;
-  flex-basis: 20%;
+  flex-basis: 10%;
   flex-direction: column;
   justify-content: center;
   align-items: center;
@@ -237,23 +217,62 @@ main .main-quotes {
 }
 
 .footer-testemoni img {
-  width: 200px;
+  width: 100%;
   border-radius: 50%;
 }
 
 .footer-testemoni p {
+  margin-top: 20px;
   text-align: center;
-  font-size: 16px;
+  font-size: 20px;
 }
 
 .footer-getintouch {
   display: block;
+  font-weight: 600;
+  text-align: center;
   padding: 10px;
+  margin: 80px 0 80px;
   border: 2px solid white;
-  flex-basis: 100%;
+  flex-basis: 20%;
+}
+
+.footer-getintouch:hover {
+  border: 2px solid #FF204E;
 }
 
 .footer-sitemap {
   flex-basis: 100%;
   display: flex;
+}
+
+.footer-sitemap ul li a p {
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.footer-sitemap a:hover {
+  opacity: 0.8;
+}
+
+.footer-sitemap ul:nth-child(1) {
+  flex-basis: 20%;
+  border-left: 2px solid #D91656 ;
+  align-content: center;
+}
+
+.footer-sitemap ul:nth-child(2) {
+  flex-basis: 20%;
+  align-content: center;
+}
+
+.footer-sitemap ul:nth-child(3) {
+  flex-basis: 60%;
+  text-transform: uppercase;
+  align-content: center;
+}
+
+.footer-sitemap ul:nth-child(4) {
+  flex-basis: 10%;
+  align-content: center;
 }
