@@ -57,18 +57,18 @@ main .main-image-container {
   cursor: pointer;
 }
 
-main .hero-pfp {
+main .main-image-box {
   width: 500px;
   transition: all ease-in-out 0.5s;
 }
 
-main .hero-pfp img {
+main .main-image-box img {
   border: 6px solid white;
   object-fit: cover;
   border-radius: 50%;
 }
 
-main .hero-pfp:hover {
+main .main-image-box:hover {
   width: 600px;
 }
 
