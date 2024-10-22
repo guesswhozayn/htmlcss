@@ -211,3 +211,49 @@ main .main-quotes {
 .tw {
   width: 10%;
 }
+
+/* Foooter */
+
+.footer-main {
+  width: 100%;
+  padding: 60px 0 100px;
+}
+
+.footer-main-flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  column-gap: 30px;
+}
+
+.footer-testemoni {
+  display: flex;
+  flex-basis: 20%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.footer-testemoni img {
+  width: 200px;
+  border-radius: 50%;
+}
+
+.footer-testemoni p {
+  text-align: center;
+  font-size: 16px;
+}
+
+.footer-getintouch {
+  display: block;
+  padding: 10px;
+  border: 2px solid white;
+  flex-basis: 100%;
+}
+
+.footer-sitemap {
+  flex-basis: 100%;
+  display: flex;
+}
