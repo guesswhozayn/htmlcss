@@ -272,8 +272,8 @@ main .main-image-box:hover {
 }
 
 .footer-sitemap ul:nth-child(1) {
-  flex-basis: 20%;
-  border-left: 2px solid #D91656 ;
+  flex-basis: 10%;
+  border-left: 2px solid #D91656;
   align-content: center;
 }
 
