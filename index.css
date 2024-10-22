@@ -36,6 +36,7 @@ main a:hover {
 main .main-intro-container {
   width: 30vw;
   height: 600px;
+  border: 1px solid black;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -50,6 +51,7 @@ main .main-intro {
 
 main .main-image-container {
   width: 30vw;
+  border: 1px solid black;
   height: 600px;
   display: flex;
   justify-content: center;
@@ -70,16 +72,19 @@ main .main-image-box img {
 
 main .main-image-box:hover {
   width: 600px;
+  border: 6px solid #D91656;
 }
 
 /* Category Section */
 
 .index-category {
+  border: 1px solid black;
   width: 100%;
+  height: 100vh;
   background-color: #F4DEB3;
   display: flex;
-  column-gap: 10px;
   justify-content: center;
+  align-content: center;
   flex-wrap: wrap;
 }
 
@@ -87,7 +92,6 @@ main .main-image-box:hover {
   height: 600px;
   width: 300px;
   margin: 30px 30px;
-  margin-bottom: 200px;
   border: 2px solid black;
   border-radius: 30px;
   background-color: #D91656;
@@ -115,25 +119,34 @@ main .main-image-box:hover {
 
 /* About Section */
 
-.index-about {
-  width: 100%;
-  padding: 60px 0;
-  background-color: #624E88;
-}
-
-.index-about-flex {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  column-gap: 10px;
-}
-
 .wrapper-main {
   width: 1500px;
   margin: 0 auto;
 }
 
-.index-about img {
+.index-about {
+  width: 100%;
+  height: 100vh;
+  background-color: #624E88;
+}
+
+.index-about-container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.index-about-img {
+  width: 400px;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.index-about-img img {
   width: 300px;
   border-radius: 300px;
   padding: 30px;
@@ -141,13 +154,13 @@ main .main-image-box:hover {
   transition: all ease-in-out 0.5s;
 }
 
-.index-about img:hover {
-  width: 400px;
+.index-about-img img:hover {
+  width: 350px;
   cursor: pointer;
 }
 
 .index-about-text {
-  flex-basis: 40%;
+  flex-basis: 30%;
 }
 
 .index-about-text h2 {
@@ -157,7 +170,7 @@ main .main-image-box:hover {
 .index-about-text a {
   display: block;
   margin-top: 30px;
-  width: 35%;
+  width: 200px;
   padding: 10px;
   font-size: 20px;
   border: 2px solid black;
@@ -169,7 +182,7 @@ main .main-image-box:hover {
 }
 
 .index-about-skill {
-  flex-basis: 300px;
+  flex-basis: 20%;
   padding: 20px;
 }
 
