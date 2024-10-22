@@ -209,6 +209,8 @@ main .main-quotes {
 
 .footer-testemoni {
   display: flex;
+  cursor: pointer;
+  margin-top: 40px;
   flex-basis: 10%;
   flex-direction: column;
   justify-content: center;
@@ -273,6 +275,6 @@ main .main-quotes {
 }
 
 .footer-sitemap ul:nth-child(4) {
-  flex-basis: 10%;
-  align-content: center;
+  flex-basis: 20%;
+  text-align: right;
 }
