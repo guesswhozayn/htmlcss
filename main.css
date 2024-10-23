@@ -2,6 +2,8 @@ body {
   background-color: black;
 }
 
+/* Default */
+
 a {
   cursor: pointer;
   color: white;
@@ -59,6 +61,8 @@ li {
   font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
     Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
+
+/* Header */
 
 .header-main {
   width: 100%;
@@ -148,4 +152,107 @@ li {
   background-image: url(/img/instagram-logo.png);
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+/* Foooter */
+
+.footer-main {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-main-testemoni-container {
+  width: 80%;
+  margin-top: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 5%;
+}
+
+.footer-testemoni {
+  display: flex;
+  cursor: pointer;
+  margin-top: 40px;
+  flex-basis: 10%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.footer-testemoni img {
+  width: 100%;
+  border-radius: 50%;
+}
+
+.footer-testemoni p {
+  font-style: italic;
+  margin-top: 20px;
+  text-align: center;
+  font-size: 18px;
+}
+
+.footer-getintouch {
+  display: block;
+  font-weight: 600;
+  text-align: center;
+  padding: 10px;
+  margin: 80px 0 80px;
+  border: 2px solid white;
+}
+
+.footer-getintouch:hover {
+  border: 2px solid #FF204E;
+}
+
+/* Sitemap */
+
+.footer-sitemap {
+  width: 100%;
+  padding-bottom: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 5%;
+}
+
+.footer-sitemap ul li a p {
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.footer-sitemap a:hover {
+  opacity: 0.8;
+}
+
+.footer-sitemap ul:nth-child(1) {
+  flex-basis: 10%;
+  font-style: italic;
+  border-left: 2px solid #D91656;
+  align-content: center;
+}
+
+.footer-sitemap ul:nth-child(2) {
+  flex-basis: 10%;
+  font-style: italic;
+  border-left: 2px solid #D91656;
+  align-content: center;
+}
+
+.footer-sitemap ul:nth-child(3) {
+  flex-basis: 30%;
+  border-left: 2px solid #D91656;
+  font-style: italic;
+  align-content: center;
+}
+
+.footer-sitemap ul:nth-child(4) {
+  flex-basis: 15%;
+  font-style: italic;
+  text-align: right;
 }
