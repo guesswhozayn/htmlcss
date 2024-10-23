@@ -13,27 +13,7 @@ a {
   text-decoration: none;
 }
 
-h1 {
-  cursor: pointer;
-  color: white;
-  font-size: 25px;
-  line-height: 30px;
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
-    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-  text-transform: uppercase;
-}
-
-h2 {
-  cursor: pointer;
-  color: white;
-  font-size: 25px;
-  line-height: 30px;
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
-    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-  text-transform: uppercase;
-}
-
-h3 {
+h1, h2, h3 {
   cursor: pointer;
   color: white;
   font-size: 25px;
@@ -83,35 +63,27 @@ li {
 
 .header-main-logo img {
   position: relative;
-  height: 120px;
-  margin-left: 70px;
+  height: 80px;
+  margin-left: 80px;
   align-self: center;
 }
 
 .header-main-nav {
-  position: absolute;
-  height: 100%;
+  margin-right: 40px;
   width: fit-content;
-  left: 250px;
-  z-index: 1000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .header-main-nav ul {
   list-style: none;
-  font-size: 20px;
-  font-weight: 600;
-  justify-content: center;
   display: flex;
 }
 
-.header-main-nav ul li {
-  display: inline;
-}
-
 .header-main-nav ul li a {
-  height: 100%;
   color: black;
-  padding: 25px;
+  padding: 30px;
   display: block;
 }
 
@@ -120,7 +92,6 @@ li {
 }
 
 .header-main-sm {
-  height: 100%;
   width: fit-content;
   padding: 30px;
   display: flex;
@@ -159,6 +130,14 @@ li {
 .footer-main {
   width: 100%;
   height: 100%;
+}
+
+.wrapper-footer {
+  width: 1000px;
+  margin: 0 auto;
+}
+
+.wrapper-footer-flex {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -167,41 +146,41 @@ li {
 
 .footer-main-testemoni-container {
   width: 80%;
-  margin-top: 60px;
+  margin-top: 40px;
   display: flex;
   justify-content: center;
   align-items: center;
   column-gap: 5%;
 }
 
-.footer-testemoni {
+.footer-testemoni-box {
+  width: 50px;
   display: flex;
-  cursor: pointer;
   margin-top: 40px;
-  flex-basis: 10%;
+  flex-basis: 20%;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
 }
 
-.footer-testemoni img {
+.footer-testemoni-box img {
   width: 100%;
   border-radius: 50%;
 }
 
-.footer-testemoni p {
-  font-style: italic;
+.footer-testemoni-box p {
   margin-top: 20px;
+  font-style: italic;
   text-align: center;
-  font-size: 18px;
+  font-size: 14px;
 }
 
 .footer-getintouch {
   display: block;
   font-weight: 600;
   text-align: center;
-  padding: 10px;
+  padding: 10px 30px;
   margin: 80px 0 80px;
   border: 2px solid white;
 }
@@ -221,8 +200,16 @@ li {
   column-gap: 5%;
 }
 
+.footer-sitemap ul li {
+  font-size: 14px;
+}
+
+.footer-sitemap ul li a {
+  font-size: 14px;
+}
+
 .footer-sitemap ul li a p {
-  font-size: 20px;
+  font-size: 14px;
   line-height: 30px;
 }
 
@@ -231,28 +218,28 @@ li {
 }
 
 .footer-sitemap ul:nth-child(1) {
-  flex-basis: 10%;
+  flex-basis: 20%;
   font-style: italic;
   border-left: 2px solid #D91656;
   align-content: center;
 }
 
 .footer-sitemap ul:nth-child(2) {
-  flex-basis: 10%;
+  flex-basis: 20%;
   font-style: italic;
   border-left: 2px solid #D91656;
   align-content: center;
 }
 
 .footer-sitemap ul:nth-child(3) {
-  flex-basis: 30%;
+  flex-basis: 40%;
   border-left: 2px solid #D91656;
   font-style: italic;
   align-content: center;
 }
 
 .footer-sitemap ul:nth-child(4) {
-  flex-basis: 15%;
+  flex-basis: 20%;
   font-style: italic;
   text-align: right;
 }
