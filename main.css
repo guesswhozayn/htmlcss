@@ -76,6 +76,7 @@ li {
 
 .header-main-nav ul {
   list-style: none;
+  margin-right: 50px;
   display: flex;
 }
 
