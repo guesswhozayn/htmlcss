@@ -238,7 +238,7 @@
 
 /* Mobile Version */
 
-@media only screen and (min-width: 768px) {
+@media only screen and (max-width: 768px) {
   
   .index-hero {
     height: 100%;
