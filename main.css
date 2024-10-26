@@ -130,7 +130,7 @@ li {
 
 /* Foooter */
 
-.footer-main {
+#footer-main {
   width: 100%;
   height: 100%;
 }
@@ -283,7 +283,7 @@ li {
 
   .header-main-nav {
     display: none;
-  }  
+  }
   
   .footer-main-testemoni-container {
     width: 100%;

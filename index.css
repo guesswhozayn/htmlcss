@@ -1,6 +1,6 @@
 /* Hero Section */
 
-.index-hero {
+#index-hero {
   width: 100%;
   height: 100vh;
   background-color: wheat;
@@ -74,20 +74,22 @@
 }
 
 .main-image-box {
-  max-width: 100%;
-  width: 300px;
-  transition: all ease-in-out 0.5s;
+  width: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .main-image-box img {
   border: 6px solid white;
+  width: 80%;
   object-fit: cover;
   border-radius: 50%;
-  
+  transition: all ease-in-out 0.5s;
 }
 
-.main-image-box:hover {
-  width: 350px;
+.main-image-box img:hover {
+  width: 100%;
 }
 
 /* Category Section */
@@ -140,7 +142,7 @@
 
 /* About Section */
 
-.index-about {
+#index-about {
   width: 100%;
   height: 100vh;
   display: flex;
@@ -243,7 +245,7 @@
 
 @media only screen and (max-width: 768px) {
   
-  .index-hero {
+  #index-hero {
     height: 100%;
     margin-top: 80px;
   }
@@ -281,16 +283,10 @@
   }
 
   .main-image-box {
-    max-width: 100%;
     width: 80%;
-    transition: all ease-in-out 0.5s;
   }
 
-  .index-category {
-    padding-top: 100px;
-  }
-
-  .index-about {
+  #index-about {
     width: 100%;
     height: 100%;
     display: flex;
