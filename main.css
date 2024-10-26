@@ -131,18 +131,6 @@ li {
   height: 100%;
 }
 
-.wrapper-footer {
-  width: 1000px;
-  margin: 0 auto;
-}
-
-.wrapper-footer-flex {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
 .footer-main-testemoni-container {
   width: 80%;
   margin-top: 40px;
@@ -237,12 +225,59 @@ li {
 
 .footer-sitemap ul:nth-child(4) {
   flex-basis: 20%;
+  padding: 20px;
   text-align: right;
+}
+
+.burger-menu,
+.burger-btn {
+  display: none;
 }
 
 /* Mobile Version */
 
-@media (max-width: 600px) {
+@media only screen and (min-width: 768px) {
+
+  /* Burger Menu */
+
+  .burger-btn {
+    display: block;
+    height: 30px;
+    width: 30px;
+    background-image: url(img/menu-btn.png), url(img/cross-btn.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center, center left 50px;
+    margin-left: 20px;
+  }
+
+  .burger-menu {
+    display: none;
+    width: 100%;
+    height: 100vh;
+    z-index: 900;
+    position: fixed;
+    background-color: black;
+    }
+
+    .burger-menu ul {
+      width: 100%;
+      padding: 50px;
+      display: flex;
+      flex-wrap: wrap;
+      align-content: flex-start;
+      text-align: center;
+    }
+
+    .burger-menu ul li {
+      padding: 50px;
+      flex-basis: 100%;
+      border-top: 1px solid white;
+    }
+
+    .burger-menu ul li:first-child {
+      border: none;
+    }
 
   /* Header */
 
@@ -256,9 +291,6 @@ li {
 
   /* Footer */
   
-  .wrapper-footer {
-    width: 60%;
-  }
   
   .footer-main-testemoni-container {
     width: 100%;
@@ -266,6 +298,7 @@ li {
   
   .footer-testemoni-box {
     width: 100%;
+    padding: 30px;
     flex-basis: 80%;
   }
 
@@ -273,6 +306,10 @@ li {
 
   .footer-sitemap {
     flex-direction: column;
+  }
+
+  .footer-sitemap ul {
+    border-top: 1px solid gray;
   }
   
   .footer-sitemap ul:nth-child(1) {
@@ -286,7 +323,6 @@ li {
     flex-basis: 100%;
     text-align: center;
     border-left: none;
-    border-top: 2px solid white;
     padding: 30px;
   }
   
@@ -294,14 +330,12 @@ li {
     flex-basis: 100%;
     border-left: none;
     text-align: center;
-    border-top: 2px solid white;
     padding: 30px;
   }
   
   .footer-sitemap ul:nth-child(4) {
     flex-basis: 100%;
     text-align: center;
-    border-top: 2px solid white;
     padding: 30px;
   }
 

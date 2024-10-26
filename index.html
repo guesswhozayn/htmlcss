@@ -11,6 +11,15 @@
 
   <body>
 
+    <nav class="burger-menu">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Reviews</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </nav>
+
     <!--Navbar-->
 
     <header class="header-main">
@@ -29,9 +38,10 @@
         </nav>
 
       <div class="header-main-sm">
-        <a href="www.github.com"><div class="header-main-sm-gh"></div></a>
-        <a href="www.linkedin.com"><div class="header-main-sm-ln"></div></a>
-        <a href="www.instagram.com"><div class="header-main-sm-ig"></div></a>
+        <a href="#"><div class="header-main-sm-gh"></div></a>
+        <a href="#"><div class="header-main-sm-ln"></div></a>
+        <a href="#"><div class="header-main-sm-ig"></div></a>
+        <div class="burger-btn"></div>
       </div>
 
     </header>
@@ -67,20 +77,22 @@
     <section class="index-category">
 
       <div class="wrapper-main wrapper-main-flex">
-        <a class="index-category-box">
-          <img src="/img/coding-logo.png" alt="coding-logo">
-          <h3>Web<br>Development</h3>
-        </a>
-  
-        <a class="index-category-box">
-          <img src="/img/ux-logo.png" alt="ux-logo">
-          <h3>UI/UX<br>Design</h3>
-        </a>
-  
-        <a class="index-category-box">
-          <img src="/img/game-logo.png" alt="game-logo">
-          <h3>Gaming</h3>
-        </a>
+        <div class="index-category-container">
+          <a class="index-category-box">
+            <img src="/img/coding-logo.png" alt="coding-logo">
+            <h3>Web<br>Development</h3>
+          </a>
+    
+          <a class="index-category-box">
+            <img src="/img/ux-logo.png" alt="ux-logo">
+            <h3>UI/UX<br>Design</h3>
+          </a>
+    
+          <a class="index-category-box">
+            <img src="/img/game-logo.png" alt="game-logo">
+            <h3>Gaming</h3>
+          </a>
+        </div>
       </div>
 
     </section>
@@ -135,7 +147,7 @@
 
     <footer class="footer-main">
 
-      <div class="wrapper-footer wrapper-footer-flex">
+      <div class="wrapper-main wrapper-main-flex">
         <div class="footer-main-testemoni-container">
           <div class="footer-testemoni-box">
             <img src="/img/testemoni-1.JPG" alt="testemoni-1">
@@ -159,6 +171,7 @@
         <a class="footer-getintouch" href="#">GET IN TOUCH</a>
         
         <!--Sitemap-->
+
         <div class="footer-sitemap">
             <ul>
               <li><a href="#">Home</a></li>
@@ -187,6 +200,8 @@
       </div>
 
     </footer>
+
+    <script src="main.js"></script>
 
   </body>
 </html>
